@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">   <meta charset="utf-8">
+        <link rel="stylesheet" href="js.js">   <meta charset="utf-8">
+        <title>ouih</lknBUH>.</title>
+    </head> <body>
+
+ 
+       
+             <button onclick="myFunction1()">задание 1</button><br>
+             <button onclick="myFunction2()">задание 2</button><br>
+             <button onclick="myFunction3()">задание 3</button><br>
+             <button onclick="myFunction4()">задание 4</button><br>
+             <button onclick="myFunction5()">задание 5</button><br>
+             <button onclick="myFunction6()">задание 6</button><br>
+             <button onclick="myFunction7()">задание 7</button><br>
+             <button onclick="myFunction8()">задание 8</button><br>
+             <button onclick="myFunction9()">задание 9</button><br>
+             <button onclick="myFunction10()">задание 10</button><br>
+             <button onclick="myFunction11()">задание 11</button><br>
+             <button onclick="myFunction12()">задание 12</button><br>
+             <button onclick="myFunction13()">задание 13</button><br>
+             <button onclick="myFunction14()">задание 14</button><br>
+             <button onclick="myFunction161()">задание 16,1</button><br>
+             <button onclick="myFunction16()">задание 16</button><br>
+             <button onclick="myFunction17()">задание 17</button><br>
+             <button onclick="myFunction18()">задание 18</button><br>
+
+
+
+             <script type="text/javascript">
+  function myFunction1() {
+      /* 1*/
+    var a = prompt("Введите число 11", "0"); /*ввод числа 11 пользователем*/
+    if (a == 11){ /*если введенное число =11*/
+    alert("Введенное значение верно") /*вывод верен*/
+    }
+    else /*в противном случае*/
+    {
+    alert("Введенное значение неверно") /*вывод неверен*/
+    }};
+
+    function myFunction2() {
+        /* 2*/
+        var a = prompt("сколько вам лет");
+     if(a >= 20) {
+     alert("вы нам подходите.");
+     }
+     else{
+     alert(" вы нам неподходите.");
+     }};
+     function myFunction3() {
+         /*3*/
+        var a = prompt("Введите пароль"); /*ввод пароля пользователем*/
+        switch(a){
+                case 9583 :
+                case 1747 :
+                        alert("[eq");
+                break;
+                case 3331 :
+                case 7922 :
+                alert("1");
+                break;
+                case 9455 :
+                case 8997 :
+                alert("2");
+                break;
+                default :
+                alert("3");
+        }
+     }
+
+     function myFunction4() {
+        /* 4*/
+        var a=1, b=2, max = 0; /*ввод переменных а и в, максимум = 0*/
+        var max = (a>b) ? a : b/*если условие а>в, то значению максимума присвоить значение а, в противном случае присвоить значиние в */
+        alert(max)/*вывод максимума*/
+        }
+
+        function myFunction5() {
+         /* 5*/
+var a=12, b=21, result = 0; /*ввод переменных а и в, результ = 0*/
+var result = (a*b<6) ? Мало : Много/*если условие а умноженное на в меньше 6, то значению результа присвоить значение Мало, в противном случае присвоить значиние Много */
+alert(result)/*вывод рзульта*/
+        }
+        function myFunction6() {
+         /* 6*/
+var number = prompt("Введите число 1 или 2:");/*ввод пользователем числа 1 или 2*/
+switch (number){/*если введено 1, то выводить окно Один, в противном случае, выводить окно Два*/
+case "1":
+alert ("Один");
+break;
+case "2" :
+alert ("Два");
+break; 
+default:
+alert ("Вы ввели значение отличное от 1 или 2");/*вывод*/
+}
+        }
+        function myFunction7() {
+         /* 7*/
+alert("вывoдится: Hello");
+        }
+        function myFunction8() {
+         /*8*/
+var vorncount = prompt("введите колисество ворон") /*ввод количества ворон*/
+var scl
+switch (vorncount){ /*если переменная имеет значиние от 1 до 4 - кейс1, в другом случае - кейс2*/
+case'1':
+scl = ("ворона");
+break;
+case'2':
+case'3':
+case'4':
+scl = ("вороны");
+break;
+case'5':
+case'6':
+case'7':
+case'8':
+case'9':
+case'10':
+case'0':
+scl = ("ворон");
+break; /*выход из цикла*/
+
+}
+alert("на ветке сидит " + vorncount + ' ' + scl);/*вывод окна с текстом и количеством ворон*/
+
+        }
+        function myFunction9() {
+        /* 9*/
+var summ = 0; /*сумма = 0*/
+for (var i = 0;i<16;i++) /* i=0, условие i<16 (конечное значение I), увеличение на 1 */
+{
+summ = summ + i; /*сумм = сумм+i*/
+}
+alert(summ);/*вывод сумм*/
+ 
+        }
+        function myFunction10() {
+         /* 10*/
+for (var i=0; i<=15; i++){ /* i=0, условие iменьше или равно 15 (конечное значение I = 15 или меньше), увеличение на 1 */
+if (i==5, i==7) continue; /*если I=5 или 7, то продолжать, не выводя эти значения на экран*/
+alert(i);
+if (i==15)break;/*выход из цикла, при этом 15 выводиться*/
+
+        }}
+        function myFunction11() {
+         /* 11*/
+var inputType = prompt("Введите '1'-текстовове поле, '2' - кнопка, '3' - radio") /*пользователь выбирает и вводит цифру от 1 до 3*/
+var inputTags = Number(prompt('Введите количество тэгов для вывода'))/*ввод кол-ва тэгов*/
+
+for (let i = 0; i < inputTags; i++) {/* i=0, условие i меньше тегов, увеличение на 1 */
+switch(inputType) {/* подбирает и выводит нужное пользователь чисто в качестве окна */
+case '1' :
+document.write( '<input type="text">' )
+break
+case '2' :
+document.write( '<input type="button">' )
+break
+case '3' :
+document.write( '<input type="radio">' )
+break
+default :
+document.write(Ошибка)
+break
+}
+}  
+}
+        function myFunction12() {
+         /* 12*/
+var table = document.createElement("table");
+for (var i = 1; i < 9; i++) { /* ширина*/
+var tr = document.createElement('tr');
+for (var j = 1; j < 9; j++) {/* высота*/
+var td = document.createElement('td');
+if (i%2 == j%2) {/* проверяем четность нечетность и присваеваем соответствующий цвет*/
+td.className = "white";
+} else {
+td.className = "black";
+}
+tr.appendChild(td);
+}
+table.appendChild(tr);
+}
+document.body.appendChild(table);
+        }
+        function myFunction13() {
+                /* 13*/
+                document.write("выведится: Counter: 6");
+        }
+        function myFunction14() {
+         /* 14*/
+ alert("введите числоо и степень возведения");//обьясняем правила//
+var x = prompt("число");// получаем знасения переменных//
+var y = prompt("степень");
+counter = 1;
+chislo = x;
+while(counter< y)//цикл где умножаем x, y раз//
+{
+chislo = x* chislo;
+counter++;
+}
+alert(chislo);
+
+        }
+        function myFunction161() {
+         /* 16.1*/
+let name;/*заводим переменную имя*/
+do {
+name = prompt('Введите имя');/* пользователь вводит имя */
+} while (!name);/*пока строка пустая, окно не закрывается*/
+alert("Привет,"+ name + "!");/*вывод имени и текста*/
+
+        }
+        function myFunction16() {
+         /* 16*/
+var a;/* заводим переменную а*/
+for(a in window)/* ищем свойства обьекта */
+{
+alert(a + "<br />");/*
+выводим свойства обьекта */
+}
+
+        }
+        function myFunction17() {
+         /* 17*/
+alert ("до");
+try
+{
+	prompt("введите число"); /*без ошибки*/
+}
+catch(e)
+{
+	alert("обработка ошибки: "+e.message);
+}
+alert("после");
+        }
+        function myFunction18() {
+         /* 18*/
+var chislo1 = prompt("Игрок 1 ведите число");/*ввод числа первого игрока*/     
+var chislo = prompt("Введите число");/*ввод числа*/
+for (var i=1; i>0; i++){
+if (chislo == chislo1){/*если равно числу 1 игрока*/
+alert("Угадал! " + "Попыток:" + i)
+break
+}
+if (chislo > chislo1){ /*если больше числу 1 игрока*/
+	alert("Много")
+
+	var chislo = prompt("Введите число");
+}
+if (chislo < chislo1){/*если меньше числу 1 игрока*/
+	alert("Мало")
+
+	var chislo = prompt("Введите число");
+}
+}
+        }
+
+
+
+               </script>   
+
+
+        </body>
+</html>
